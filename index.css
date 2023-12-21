@@ -1,0 +1,164 @@
+@charset "UTF-8";
+* {margin: 0; padding: 0;}
+ul {list-style: none;}
+a {text-decoration: none; color: #000;}
+img {border: 0; vertical-align: top;}
+.clear::after {content: ""; display: block; clear: both;}
+/* -------------------------------------------------------------------- */
+
+#section .cont1,
+#section .cont2,
+#section .cont3 
+{display: none;}
+
+#section .faq .tab_wrap>div.on {
+    display: block;
+}
+
+#section .faq .category>li>a.btnOn {
+    color: #d50037;
+    border-bottom: 2px solid #d50037;
+}
+
+/* -------------------------------------------------------------------- */
+
+
+#section .faq {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#section>.faq>div {
+    position: absolute;
+}
+
+#section .faq>h1 {
+    font-size: 70px;
+    margin-bottom: 80px;
+}
+
+#section .faq .category {
+    margin-bottom: 50px;
+}
+
+#section .faq .category>li {
+    float: left;
+}
+
+#section .faq .category>li>a {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#section .faq>.tab_wrap>div>h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#section .faq .tab_wrap .cont1 ul>li {
+    color: rgb(46, 46, 46);
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#section .faq .tab_wrap .cont1 ul>li::before {
+    content: "";
+    display: inline-block;
+    width: 3px; height: 3px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#section .faq .tab_wrap .cont2 ul {
+    border: 1px solid rgb(212, 212, 212);
+    width: 1150px;
+    padding: 40px;
+    margin-top: -20px;
+}
+
+#section .faq .tab_wrap .cont2 ul>p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#section .faq .tab_wrap .cont2 ul>li::before {
+    content: "";
+    display: inline-block;
+    width: 5px; height: 1px;
+    background-color: rgb(46, 46, 46);
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#section .faq .tab_wrap .cont3>p {
+    color: rgb(128, 128, 128);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#section .faq .tab_wrap .cont3>p span {
+    color: #000;
+}
+
+#section .faq .tab_wrap .cont3 ul {
+    width: 1300px;
+    margin-bottom: 100px;
+}
+
+#section .faq .tab_wrap .cont3 ul li {
+    border-top: 1px solid rgb(233, 233, 233);
+    padding: 30px 50px 30px 80px;
+    overflow: hidden;
+    height: 30px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+/* 리스트온 */
+
+
+#section .faq .tab_wrap .cont3 ul li:last-child {
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+#section .faq .tab_wrap .cont3 ul li>h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* ------------------------------------------ */
+#section .tab_wrap .cont3 .faq_list>li.listOn {
+    height: 110px;
+    background-color: rgb(248, 248, 248);
+}
+#section .tab_wrap .cont3 .faq_list>li.listOn>h1 {
+    font-weight: 600;
+}
+
+
+
+
+#section .faq .tab_wrap .cont3 ul li>p {
+    font-size: 18px;
+    color: rgb(71, 71, 71);
+}
+
+#section .faq .tab_wrap .cont3 ul h1::before {
+    display: inline-block;
+    content: "Q";
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: -40px;
+    margin-right: 19px;
+}
+
